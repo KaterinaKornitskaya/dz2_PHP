@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("img/background-6556413_1280.webp");
+    color: black;
+}
+
+h1, p{
+    /*background: rgba(254, 122, 1, 70%);*/
+    background: rgba(255, 255, 255, 60%);
+    width: 80%;
+    margin: 1em auto;
+    padding: 1em;
+    text-align: center;
+}
+
+menu{
+    background: rgba(255, 255, 255, 60%);
+    width: 80%;
+    margin: 1em auto;
+
+}
+
+menu li{
+    list-style-type: none;
+    padding: 1em;
+    text-align: center;
+}
+menu li:hover{
+    background: rgba(255, 255, 255, 60%);
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.usersTable{
+    margin: auto;
+    background: rgba(255, 255, 255, 60%);
+    width: 80%;
+    border-collapse: collapse;
+}
+
+th{
+    border-bottom: 1px solid white;
+    padding: 1em;
+}
+
+td{
+    padding: 1em;
+}
+
+.usersTable tr:nth-child(2n+1){
+    background: rgba(255, 255, 255, 80%);
+}
+
+form{
+    background: rgba(255, 255, 255, 60%);
+    width: 80%;
+    margin: 1em auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    text-align: center;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    outline: none;
+    width: 90%;
+    margin: 1em auto;
+    padding: 1em;
+    background: rgba(255, 255, 255, 80%);
+    border: none;
+}
+
+input[type="submit"]{
+    margin: 1em auto;
+    width: 30%;
+}
+
+input[type="submit"]:hover{
+    background: rgba(255, 255, 255, 95%);
+}
+
+::placeholder
+{
+    color: black;
+}
